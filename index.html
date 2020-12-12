@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- Font families -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <!-- Application Container -->
+    <div class="app-container">
+      <!-- Header -->
+      <header>
+        <!-- Title -->
+        <h1 class="title">Shopping List</h1>
+        <!-- Item input -->
+        <div class="item-input">
+          <input
+            type="text"
+            class="list-item-input"
+            placeholder="Shopping item..."
+          />
+          <i class="fas fa-plus add-item"></i>
+        </div>
+      </header>
+      <!-- Shopping List -->
+      <div class="shopping-list">
+        <ul>
+          <!-- JavaScript will insert list items here -->
+        </ul>
+      </div>
+      <!-- Delete List Button -->
+      <div class="delete-all">
+        <button>Delete List</button>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
